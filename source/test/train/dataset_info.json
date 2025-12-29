@@ -1,0 +1,106 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "smart-turn-data-v3-test",
+  "dataset_size": 3532301807,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00000-of-00008.parquet": {
+      "num_bytes": 421405903,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00001-of-00008.parquet": {
+      "num_bytes": 420433206,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00002-of-00008.parquet": {
+      "num_bytes": 422214106,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00003-of-00008.parquet": {
+      "num_bytes": 417114195,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00004-of-00008.parquet": {
+      "num_bytes": 425368243,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00005-of-00008.parquet": {
+      "num_bytes": 414940691,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00006-of-00008.parquet": {
+      "num_bytes": 419126369,
+      "checksum": null
+    },
+    "hf://datasets/pipecat-ai/smart-turn-data-v3-test@94072de827a6cfe34dab0ccbbde9106909c9226a/data/train-00007-of-00008.parquet": {
+      "num_bytes": 422408673,
+      "checksum": null
+    }
+  },
+  "download_size": 3363011386,
+  "features": {
+    "audio": {
+      "_type": "Audio"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "language": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "endpoint_bool": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "midfiller": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "endfiller": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "synthetic": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "spoken_text": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 6895313193,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3532301807,
+      "num_examples": 26101,
+      "shard_lengths": [
+        3763,
+        3763,
+        3763,
+        3763,
+        3763,
+        3762,
+        3524
+      ],
+      "dataset_name": "smart-turn-data-v3-test"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
